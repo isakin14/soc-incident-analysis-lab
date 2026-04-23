@@ -1,3 +1,4 @@
+# SOC Cheat Sheet + Anotações referente ao log estudado
 
 | O que olhar                          | Red flag (suspeito)                   | O que pode ser                  |
 | ------------------------------------ | ------------------------------------- | ------------------------------- |
@@ -11,7 +12,8 @@
 | **8. Conexão de rede**               | IP externo desconhecido               | C2 (Command & Control)          |
 | **9. Horário**                       | Atividade 2h–4h da manhã              | Execução automatizada           |
 | **10. Cadeia de eventos**            | Processo → rede → arquivo → registro  | Ataque completo                 |
-**Quais eventos são suspeitos? (cite linhas ou trechos)?**
+
+## Quais eventos são suspeitos? (cite linhas ou trechos)?
 
 Time: 2026-04-20 09:18:11 | EventID: 1 | ProcessCreate  
 Image: C:\Windows\System32\winword.exe  
@@ -50,7 +52,7 @@ Time: 2026-04-20 09:19:30 | EventID: 13 | RegistryValueSet
 TargetObject: HKCU\Software\Microsoft\Windows\CurrentVersion\Run\SysUpdate  
 Details: C:\Users\Public\sysupdate.ps1
 
-**Qual é a cadeia de ataque?**
+## Qual é a cadeia de ataque?
 
 - Usuário abre:
     invoice_april.docm
@@ -80,7 +82,7 @@ Details: C:\Users\Public\sysupdate.ps1
 - Persistência:
     `HKCU\...\Run\SysUpdate`
 
-**O que é ruído (comportamento normal)?**
+ ## O que é ruído (comportamento normal)?
 
 Time: 2026-04-20 09:14:02 | EventID: 1 | ProcessCreate  
 Image: C:\Windows\System32\chrome.exe  
@@ -108,11 +110,11 @@ Time: 2026-04-20 09:20:02 | EventID: 1 | ProcessCreate
 Image: C:\Windows\System32\notepad.exe  
 ParentImage: explorer.exe
 
-**Classificação do incidente**
+## Classificação do incidente
  - Severidade: CRÍTICA
  - Tipo: Malware (Initial Access + Execution + Persistence)
 
-**Plano de resposta (nível SOC)**
+## Plano de resposta (nível SOC)
 
 Fase 1 — Contenção imediata
 - Isolar máquina da rede
