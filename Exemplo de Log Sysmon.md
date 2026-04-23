@@ -1,6 +1,7 @@
-Como ler Logs do sistemas (Sysmon)
+# Como ler Logs do sistemas (Sysmon)
 
-![[Event1Snippingtool.png]]
+<img width="987" height="806" alt="Event1Snippingtool" src="https://github.com/user-attachments/assets/11bdd1fb-114f-41c7-bf65-5a53374940b4" />
+
 ## Isso é um Event Viewer mostrando um evento do Sysmon
 O programa no qual o Log registra o processo foi o SnippingTool (ferramenta de captura de tela do win11), como pode ver é um Evento 1 (no canto superior da tela), esse número denomina oque ocorreu nesse evento, o numero 1 significa que houve um processo criado (no qual foi uma printscreen).
 
