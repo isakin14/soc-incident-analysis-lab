@@ -21,8 +21,8 @@ Durante a análise dos logs, foi identificado um possível comprometimento após
 - **Exemplo de como seria o LOG da situação:**
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fbc7e7ab-5d29-4860-a8f9-025af0ea08c1" width="45%" />
   <img src="https://github.com/user-attachments/assets/6012a0aa-6417-463b-91a7-f753966206b3" width="45%" />
+  <img src="https://github.com/user-attachments/assets/fbc7e7ab-5d29-4860-a8f9-025af0ea08c1" width="45%" />
 </p>
 
 ---
