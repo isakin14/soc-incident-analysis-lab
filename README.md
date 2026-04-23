@@ -1,7 +1,7 @@
 
-![[Screenshot 2026-04-22 213927.png|583]] ![[Screenshot 2026-04-22 213958.png]]
+# SOC Incident Analysis Lab
 
-# Overview
+## Overview
 
 Este projeto simula a análise de um incidente de segurança em um ambiente corporativo, utilizando logs do Sysmon para identificar atividades maliciosas, reconstruir a cadeia de ataque e propor ações de resposta.
 
