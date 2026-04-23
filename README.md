@@ -18,7 +18,7 @@ O objetivo é demonstrar habilidades práticas de:
 Um usuário do setor de RH (`hr.user`) executa arquivos baixados da internet.  
 Durante a análise dos logs, foi identificado um possível comprometimento após a execução de um arquivo com macro.
 
-- **Exemplo de como seria o LOG da situação:**
+- **Event Evidence:**
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6012a0aa-6417-463b-91a7-f753966206b3" width="45%" />
