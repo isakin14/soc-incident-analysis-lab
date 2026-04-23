@@ -2,8 +2,8 @@
 # SOC Incident Analysis Lab
 
 <p align="center">
-  <img src="Screenshot 2026-04-22 213927" src="https://github.com/user-attachments/assets/2a60703d-b3d6-443e-96e4-a5c8bf61c3f4" width="100" />
-  <img src="Screenshot 2026-04-22 213927" src="https://github.com/user-attachments/assets/2a60703d-b3d6-443e-96e4-a5c8bf61c3f4" width="100" />
+  <img src="https://github.com/user-attachments/assets/2a60703d-b3d6-443e-96e4-a5c8bf61c3f4" width="100" />
+  <img src="https://github.com/user-attachments/assets/2a60703d-b3d6-443e-96e4-a5c8bf61c3f4" width="100" />
 </p>
 
 ## Overview
