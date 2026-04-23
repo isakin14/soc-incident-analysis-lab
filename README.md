@@ -1,11 +1,6 @@
 
 # SOC Incident Analysis Lab
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/2a60703d-b3d6-443e-96e4-a5c8bf61c3f4" width="45%" />
-  <img src="https://github.com/user-attachments/assets/a62342f1-6145-4286-93df-fe214d1d83ca" width="45%" />
-</p>
-
 ## Overview
 
 Este projeto simula a análise de um incidente de segurança em um ambiente corporativo, utilizando logs do Sysmon para identificar atividades maliciosas, reconstruir a cadeia de ataque e propor ações de resposta.
@@ -22,6 +17,13 @@ O objetivo é demonstrar habilidades práticas de:
 
 Um usuário do setor de RH (`hr.user`) executa arquivos baixados da internet.  
 Durante a análise dos logs, foi identificado um possível comprometimento após a execução de um arquivo com macro.
+
+- **Exemplo de como seria o LOG da situação:**
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2a60703d-b3d6-443e-96e4-a5c8bf61c3f4" width="45%" />
+  <img src="https://github.com/user-attachments/assets/a62342f1-6145-4286-93df-fe214d1d83ca" width="45%" />
+</p>
 
 ---
 
